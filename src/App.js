@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React, {useState , useEffect} from 'react';
-import { ThreeDots } from  'react-loader-spinner'
+import { ThreeDots } from  'react-loader-spinner';
+import HomePage from './Components/HomePage/HomePage';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     setloading(true)
     setTimeout(()=>{
       setloading(false)
-    },6000)
+    },3000)
   },[])
 
   return (
@@ -37,20 +38,7 @@ function App() {
         </div>
         :
         //from here all the webpage part will render
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <HomePage />
       }
       
     </div>
