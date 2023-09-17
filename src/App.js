@@ -3,6 +3,10 @@ import './App.css';
 import React, {useState , useEffect} from 'react';
 import { ThreeDots } from  'react-loader-spinner';
 import HomePage from './Components/HomePage/HomePage';
+import { MutatingDots  } from  'react-loader-spinner'
+// import Login from './components/login/login';
+// import Sign from './components/sign/sign';
+
 
 
 function App() {
@@ -24,21 +28,29 @@ function App() {
               <img src="/images/sihlogo.png" alt="" />
              </div>
              <div id='dots'>
-              <ThreeDots id = 'dots'
-                height="80" 
-                width="80" 
-                radius="9"
-                color="#793FDF" 
-                ariaLabel="three-dots-loading"
-                wrapperStyle={{}}
-                wrapperClassName=""
-                visible={true}
-                  />
+             <MutatingDots 
+               height="100"
+               width="100"
+               color="#279EFF"
+               secondaryColor= '#279EFF'
+               radius='12.5'
+               ariaLabel="mutating-dots-loading"
+               wrapperStyle={{}}
+               wrapperClass=""
+               visible={true}
+               />
              </div>
         </div>
         :
         //from here all the webpage part will render
+
         <HomePage />
+
+      // <div id='home'>
+      //  <Login></Login>
+      //  <Sign></Sign>
+      // </div>
+
       }
       
     </div>
