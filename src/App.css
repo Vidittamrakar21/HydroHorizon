@@ -1,3 +1,9 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -59,4 +65,14 @@
 
 #dots{
   margin-top: -100px;
+}
+
+/* login and signup styling */
+
+#home{
+  background-color: #80DDF2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
