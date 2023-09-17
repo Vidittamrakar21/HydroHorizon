@@ -6,6 +6,7 @@
 
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -53,8 +54,8 @@
 }
 
 #photo{
-  height: 500px;
-  width: 600px;
+  height: 300px;
+  width: 300px;
   margin-top: 80px;
 }
 
@@ -70,9 +71,14 @@
 /* login and signup styling */
 
 #home{
-  background-color: #80DDF2;
-  height: 100vh;
+ 
+ 
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#mut{
+  margin-top: 100px;
 }

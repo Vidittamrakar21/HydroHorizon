@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+footer{
+    background-color: #80DDF2;
+    height: 300px;
+    width: 1520px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    color: #0367A6;
+}
+
+#name{
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#name li{
+    margin-left: 10px;
+}
+
+#github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#github a{
+    padding: 8px;
+    color: rgb(76, 75, 75);
+}
+
+#copy{
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+    color: rgb(76, 75, 75);
+}

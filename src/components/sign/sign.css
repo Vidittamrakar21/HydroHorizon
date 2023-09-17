@@ -6,9 +6,17 @@
     height: 450px;
     background-color:  #FFFFFF52;
     display: flex;
-  
-   
+  position: absolute;
+  top: 100px;
+  right: 80px;
+   cursor: pointer;
     flex-direction: column;
+}
+
+#cross{
+    position: absolute;
+    top: 0px;
+    right: 15px;
 }
 
 .inp {
@@ -16,7 +24,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 
@@ -35,4 +43,8 @@
 h2{
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
+}
+
+#con{
+    margin-left: 50px;
 }
